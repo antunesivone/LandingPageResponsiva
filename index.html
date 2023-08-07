@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Landing Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link real = "shortcut icon" href = "img/favicon.ico" type = "image/x-icon">
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class = "container">
+            <header>
+                <div class = "logo">
+                    <a href = "index.html"><img src = "img/logo.png"></a>
+                </div>
+                <nav>
+                    <ul class = "logo">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Sobre nós</a></li>
+                        <li><a href="index.html">Serviços</a></li>
+                        <li><a href="index.html">Contato</a></li>
+                        <img class = "close-icon" src = "img/close-icon.png">
+                    </ul>
+                </nav>
+                <button class = "menu-icon"><img src = " img/menu-icon.png"></button>
+            </header>
+            <main>
+                <section class = "main_left"> 
+                    <h1><b>Interface</b> & Experiência</h1>
+                    <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    It has survived not only five centuries, but also the leap into electronic typesetting.
+                    It was popularised in the 1960s with the release of Letraset sheets containing.
+                    </p>
+                    <div class = "main_left-btn":
+                        pass>
+                        <button>Começar</button>
+                        <button>Ver mais</button>
+                    </div>
+                </section>
+                <section class = "main_right"> 
+                    <img src = "img/phone.png" width = "100%">
+                </section>
+            </main>  
+        </div>
+        <<script>
+            var menu = document.querySelector('nav');
+            var menuIcon = document.querySelector('.menu-icon');
+            var closeIcon = document.querySelector('.close-icon');
+            menuIcon.addEventListener('click', () =>{
+                menu.classList.add('active');
+            });
+            closeIcon.addEventListener('click', ()=>{ 
+                menu.classList.remove('active');
+            })
+            </address>
+
+        </script>
+    </body>
+</html>
